@@ -5,7 +5,7 @@
  * mongodb 地址          mongodb://localhost:27017/
  * @author altq 2021/11/17
  */
-const { serverPort } = require("../projectConfig.js");
+const { serverPort } = require("./projectConfig.js");
 
 const fs = require("fs");
 const ip = require("ip");

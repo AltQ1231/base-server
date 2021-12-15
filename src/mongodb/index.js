@@ -5,7 +5,7 @@
  */
 // Using Node.js `require()`
 const mongoose = require("mongoose");
-const { dbUrl, dbName } = require("../../../projectConfig.js");
+const { dbUrl, dbName } = require("../../projectConfig.js");
 const url = dbUrl + dbName || "mongodb://localhost:27017/" + dbName;
 
 module.exports = () =>
